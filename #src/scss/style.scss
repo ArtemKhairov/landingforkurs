@@ -1,0 +1,56 @@
+// Миксин подключающий шрифты из отдельного файла fonts.scss
+@mixin font($font_name, $file_name, $weight, $style) {
+  
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+@import 'fonts.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'maraphon.scss';
+@import 'buy.scss';
+@import 'programm.scss';
+@import 'programm1.scss';
+@import 'after.scss';
+@import 'about.scss';
+@import 'price.scss';
+@import 'qa.scss';
+@import 'footer.scss';
+
+// Для окошек оплаты
+@import 'tarif.scss';
+
+.site-grey{
+  color:$site-grey;
+}
+.site-pink1{
+  color:$site-pink1;
+}
+.site-darkblue{
+  color:$site-darkblue;
+}
+.site-weight600{
+  font-weight: 850;
+}
+.site-weight400{
+  font-weight: 400;
+}
+.site-italic{
+  font-style: italic;
+}
+body{
+  color:$site-darkblue;
+  background-color:#f5f5f5;
+}
+.img-resp{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}

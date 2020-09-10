@@ -1,0 +1,145 @@
+.maraphon{
+  @media screen and(max-width:479px){
+    padding-top: 100px;
+  }
+
+  @media screen and(min-width:480px) and(max-width:639px){
+    padding-top: 200px;
+  }
+
+  @media screen and(min-width:640px){
+    padding-top: 150px;
+  }
+}
+
+.img-resp__maraphon{
+  @media screen and(max-width:959px){
+    margin-bottom: 40px;
+  }
+  @media screen and(min-width:960px){
+    margin-bottom: 60px;
+  }
+}
+
+.maraphon-column{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 45vh;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 7px 14px 44px -9px rgba(201,201,201,.63);
+}
+
+.maraphon-column__elem1{
+  padding-left: 60px;
+  height: 10vh;
+  color: #292727;
+  font-size: 15px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.45;
+  font-weight: bold;
+  font-style:italic;
+}
+
+.col-lips::before{
+  content:url("../img/lips.webp");
+  position: absolute;
+  left:2px;
+  top:30px;
+
+  @media screen and(max-width:377px){
+    top:22px;
+  }
+
+  @media screen and(max-width:767px){
+    top:12px;
+  }
+
+  @media screen and(max-width:991px){
+    top:19px;
+  }
+
+  @media screen and(max-width:1200px){
+    top:10px;
+  }
+}
+
+.col-banan::before{
+  content:url("../img/banan.webp");
+  position: absolute;
+  left:14px;
+  top:12px;
+
+  @media screen and(max-width:339px){
+    left:10px;
+    top:8px;
+  }
+
+  @media screen and(max-width:767px){
+    left:11px;
+    top:-1px;
+  }
+
+}
+
+.col-whip::before{
+  content:url("../img/whip.webp");
+  position: absolute;
+  top:28px;
+  left:-14px;
+
+  @media screen and(max-width:432px){
+    left:-14px;
+  }
+
+  @media screen and(max-width:767px){
+    left:-14px;
+    top:6px;
+  }
+
+  @media screen and(max-width:991px){
+    left:-14px;
+    top:24px;
+  }
+
+
+  @media screen and(max-width:1200px){
+    left:-15px;
+    top:2px;
+  }
+}
+
+
+.col-circle::before{
+  content:url("../img/circle.webp");
+  position: absolute;
+  left:2px;
+  top:22px;
+}
+
+
+.maraphon .card{
+  border-radius: 10px;
+}
+
+.maraphon .card-title{
+  padding-left: 60px;
+  
+  font-size:15px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  font-weight:600;
+  line-height: 1.45;
+  font-style:italic;
+  @media screen and(max-width:479px){
+    font-size:14px;
+  }
+
+  @media screen and(max-width:959px){
+    font-size:16px
+  }
+
+  @media screen and(min-width:1200px){
+    min-height: 110px;
+  }
+}

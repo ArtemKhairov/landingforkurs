@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <div class="back-block"></div> -->
+<header class="header">  
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7">
+        <div class="header__content-block">
+          <div class="header__pretitle ">Старт курса:<span class="site-pink1"> 3 сентября</span></div>
+          <div class="header-title">
+            <!-- <h1 class="title__h1 site-weight600">Игры <span class="h1__span site-pink1">со страстью</span></h1> -->
+            <img class=" img-resp__header" src="img/title1.webp">
+           
+          </div>
+          <div class="header__aftertitle"><span class="aftertitle__span">14 жарких дней,</span> после которых он тебя не узнает</div>
+          <div class="header__columns-content">
+            <!-- <div class="column-content">
+              <div class="column-content__elem1">Задания и практики, которые помогут <span class="site-weight600 site-italic">раскрепоститься, вернуть былую страсть</span> и соблазнить его даже на расстоянии</div>
+              <div class="line-p"></div> 
+            </div>
+            <div class="column-content">
+              <div class="column-content__elem1"><span class="site-weight600 site-italic">Только проверенные</span> фишки и игрушки, которые точно дадут результат</div>
+              <div class="line-p"></div> 
+            </div>
+            <div class="column-content">
+              <div class="column-content__elem1">Делай так, чтобы он САМ захотел того, чего хочется тебе — и получай <span class="site-weight600 site-italic">реальное удовольствие</span></div>
+              <div class="line-p"></div> 
+            </div> -->
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body card-body__header">
+                  <p class="card-text card-text__header">Задания и практики, которые помогут <span class="site-weight600 ">раскрепоститься, вернуть былую страсть</span> и соблазнить его даже на расстоянии</p>
+                  <div class="line-p"></div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body card-body__header">
+                  <p class="card-text card-text__header"><span class="site-weight600 ">Только проверенные</span> фишки и игрушки, которые точно дадут результат</p>
+                  <div class="line-p"></div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body card-body__header">
+                  <p class="card-text card-text__header">Делай так, чтобы он САМ захотел того, чего хочется тебе — и получай <span class="site-weight600 ">реальное удовольствие</span></p>
+                  <div class="line-p"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__buttons">
+            <button class="header__btn btn__pink" id="buy-button">Купить марафон</button>
+            <div class="w-100 header-btw__btn"></div>
+            <button class="header__btn btn__white" id="about-button">Узнать подробнее</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 ">
+        <div class="block-red"></div>
+        <img class="img-resp__header__photo" src="img/kris.webp" >
+      </div>
+    </div>
+  </div>
+</header>
+
+  <section class="maraphon">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img class="img-resp img-resp__maraphon" src="img/title2.webp" id="mara">
+      </div>
+      <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="maraphon-column">
+          <div class="maraphon-column__elem1 col-lips">Я ещё молодая, но секс для меня — каторга и пустая трата времени</div>
+          <hr>
+          <div class="maraphon-column__elem2">Я не понимаю, почему так быстро перестала получать удовольствие. Я люблю своего молодого человека и чувствую себя виноватой, но мне сложно даже говорить об этом. Хочется быть нормальной, любить секс, как раньше</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="maraphon-column">
+          <div class="maraphon-column__elem1 col-whip">Наш секс был потрясающим но с появлением детей всё буквально рухнуло</div>
+          <hr>
+          <div class="maraphon-column__elem2">Когда есть настроение, нет времени, и наоборот. Чувства будто остывают. Кажется, что скоро такой режима без близости сделает нас совершенно чужими друг для друга</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="maraphon-column">
+          <div class="maraphon-column__elem1 col-banan">Стыдно в этом признаться, но я имитирую оргазмы</div>
+          <hr>
+          <div class="maraphon-column__elem2">Я правда хочу своего парня, да и он, кажется, всё делает правильно. Но до конца дойти не могу, как и рассказать ему об этом. Скованность не даёт сосредоточиться на ощущениях, постоянные мысли донимают меня в процессе. Думаю, проблема именно в этом, но я не знаю, что делать</div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="maraphon-column">
+          <div class="maraphon-column__elem1 col-circle">У нас всё было отлично, пока его командировки не участились</div>
+          <hr>
+          <div class="maraphon-column__elem2">Теперь его может не быть целый месяц. Очень переживаю, что ему не хватает близости и он решит пойти «налево». Пытаюсь писать ему что-то приятное, но получается, по-моему, не очень. Хочу перестать бояться измены. Хочу, чтобы он считал минуты до возвращения ко мне</div>
+        </div>
+      </div> -->
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title col-lips">Я еще молодая, но секс для меня - каторга и пустая трата времени</h5>
+            <hr>
+            <p class="card-text">Я не понимаю, почему так быстро перестала получать удовольствие. Я люблю своего молодого человека и чувствую себя виноватой, но мне сложно даже говорить об этом. Хочется быть нормальной, любить секс, как раньше</p>
+             
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title col-whip">Наш секс был потрясающим но с появлением детей всё буквально рухнуло</h5>
+            <hr>
+            <p class="card-text">Когда есть настроение, нет времени, и наоборот. Чувства будто остывают. Кажется, что скоро такой режима без близости сделает нас совершенно чужими друг для друга</p>
+             
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title col-banan">Стыдно в этом признаться, но я имитирую оргазмы</h5>
+            <hr>
+            <p class="card-text">Я правда хочу своего парня, да и он, кажется, всё делает правильно. Но до конца дойти не могу, как и рассказать ему об этом. Скованность не даёт сосредоточиться на ощущениях, постоянные мысли донимают меня  в процессе. Думаю, проблема именно в этом, но я не знаю, что делать</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title col-circle">У нас всё было отлично, пока его командировки не участились</h5>
+            <hr>
+            <p class="card-text">Теперь его может не быть целый месяц. Очень переживаю, что ему не хватает близости и он решит пойти «налево». Пытаюсь писать ему что-то приятное, но получается, по-моему, не очень. Хочу перестать бояться измены. Хочу, чтобы он считал минуты до возвращения ко мне</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!-- не подходит визуально -->
+  <section class="programm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img class="img-resp" src="img/title3.webp">  
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="programm-points">
+          <ul class="programm__list">
+            <li class="programm__list-item">7 подробных уроков, некоторые из которых дополнены видео-материалами</li>
+            <li class="programm__list-item">В каждом уроке жаркие задания для самых разных пар и сценариев</li>
+            <li class="programm__list-item">Чат с обратной связью и проверкой выполненных заданий</li>
+            <li class="programm__list-item">Подробный обзоры игрушек</li>
+            <li class="programm__list-item">Документ «Техники соблазнения»</li>
+            <li class="programm__list-item">Гайд «Страсть и его желание, через любовь к себе»</li>
+            <li class="programm__list-item">Гайд «7 секс-игр для пар»</li>
+            <li class="programm__list-item">Гайд по оргазмам</li>
+            <li class="programm__list-item">Книга-инструкция «Как не заблудиться в лесу среди брёвен»</li>
+            <li class="programm__list-item">Книга-инструкция «И помни: минет должен быть каждое утро»</li>
+            <li class="programm__list-item">Розыгрыш секс-боксов для участников на третьем тарифе</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7">
+        <img class="img-resp" src="img/mask.webp">
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="programm1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img class="img-resp" src="img/title4.webp">
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">1 ДЕНЬ. ВВОДНЫЙ УРОК</h5>
+            <hr class="hr-white">
+              <ul>
+                <li>Знакомство со мной</li>
+                <li>Для чего мы здесь собрались?</li>
+                <li>Важность марафона</li>
+                <li>Программа</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">2 ДЕНЬ. ПЕРВОЕ СВИДАНИЕ</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Важность первого свидания</li>
+              <li>Сценарии первого свидания,применимые для любой пары</li>
+              <li>Как правильно пригласить мужчину, чтобы он не рассмеялся в ответ</li>
+              <li>Частые ошибки, которых можно избежать</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">3 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">4 ДЕНЬ. ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ + СОБЛАЗНЕНИЕ</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Варианты выполнения урока для любой пары</li>
+              <li>Как перестать стесняться и переключить внимание на себя</li>
+              <li>Главные ошибки на этом этапе</li>
+              <li>Как правильно начать</li>
+              <li>Виртуальное соблазнение</li>
+              <li>Соблазнение по вашим правилам</li>
+              <li>Техники соблазнения</li>
+              <li>Техники эротического массажа</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">5 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">6 ДЕНЬ. МУЖСКОЙ ВЕЧЕР</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Что это и зачем?</li>
+              <li>Варианты проведения в любых обстоятельствах</li>
+              <li>Как благодаря этому уроку он перестанет быть эгоистом</li>
+              <li>Важный этап твоего раскрепощения</li>
+              <li>Моменты, к которым нужно быть готовыми, и почему важно не сойти с пути</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">7 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">8 ДЕНЬ. ВЫХОД ИЗ ЗОНЫ КОМФОРТА</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Варианты урока в любых обстоятельствах</li>
+              <li>Как это повлияет на уверенность в себе, закрепит отношения и разожжет страсть</li>
+              <li>Как не показаться глупой</li>
+              <li>Включаем зелёный свет для его действий</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">9 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">10 ДЕНЬ. ПРЕЛЮДИЯ + ПРАВИЛА ИСПОЛЬЗОВАНИЯ СЕКС-ИГРУШЕК НА ЛЮДЯХ</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Почему именно прелюдия и почему она важна</li>
+              <li>Подготовка к прелюдии</li>
+              <li>Варианты сценариев для прелюдии в любых обстоятельствах</li>
+              <li>Побороть страх прелюдии</li>
+              <li>Главные ошибки</li>
+              <li>Как правильно начать прелюдию, чтобы не спугнуть его</li>
+              <li>Правильное применение секс-игрушек вне дома</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">11 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">12 ДЕНЬ. ОРГАЗМ, РАЗНООБРАЗИЕ В СЕКСЕ + СЕКС-ИГРУШКИ</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Мужской и женский оргазм, его влияние на организм</li>
+              <li>Сценарии практического закрепления урока для всех пар</li>
+              <li>Как получать удовольствие каждый раз</li>
+              <li>Что делать, если он заканчивает раньше</li>
+              <li>Позы для одновременного оргазма</li>
+              <li>Позы, которые любят мужчины</li>
+              <li>Как не быть «бревном» в постели</li>
+              <li>Правила разнообразия и достижения оргазма</li>
+              <li>Виды оргазма и его достижения</li>
+              <li>Разнообразие с помощью игрушек</li>
+              <li>Что нужно знать о секс-игрушках</li>
+              <li>Игрушки для соло, для пары и для него</li>
+              <li>Пропадёт ли чувствительность из-за игрушек</li>
+              <li>Как предложить ему поиграть</li>
+              <li>Как выбрать, чтоб не выбросить деньги на ветер</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">13 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">14 ДЕНЬ. МИНЕТ И МАНУАЛЬНАЯ ТЕХНИКА (МАССАЖ ЛИНГАМ)</h5>
+            <hr class="hr-white">
+            <ul>
+              <li>Варианты заданий для выполнения в разных обстоятельствах и на разных уровнях сложности</li>
+              <li>Как делать это с удовольствием и пользой для себя</li>
+              <li>Гигиена и страхи «заразиться»</li>
+              <li>Секреты парней: Как завести его до начала процесса? Что они любят больше всего? Секретные фишки, от которых он будет стонать</li>
+              <li>Ошибки при минете</li>
+              <li>Как избежать/избавиться от рвотного рефлекса</li>
+              <li>Позы, которые доставят удовольствие и легкость обоим</li>
+              <li>Все, что нужно знать о горловом минете</li>
+              <li>Секс-игрушки для минета, все секреты и способы сделать этот процесс «вкусным»</li>
+              <li>На что влияет вкус спермы</li>
+              <li>Что делать, если для меня эту табу?</li>
+              <li>Чем можно заменить минет?</li>
+              <li>Топовые техники и фишки для массажа лингам</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">15 ДЕНЬ. ПРОВЕРКА ЗАДАНИЙ + РАБОТА НАД ОШИБКАМИ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body card-uplifts">
+            <h5 class="card-title">16 ДЕНЬ. ФИНАЛ + РОЗЫГРЫШ СЕКС-БОКСОВ</h5>
+            <hr class="hr-white">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="after">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img class="img-resp" src="img/title5.webp">
+      </div>     
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">01</h5>
+            <p class="card-text">Поймёшь, что страсть всегда была внутри тебя — и научишься направлять ее в нужное русло</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">02</h5>
+            <p class="card-text">Избавишься от напряжения во время секса и начнёшь получать реальное удовольствие</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">03</h5>
+            <p class="card-text">Сможешь в любой момент удачно соблазнить парня даже на расстоянии</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">04</h5>
+            <p class="card-text">Научишься правильно устраивать свидания</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">05</h5>
+            <p class="card-text">Разнообразишь свой секс, даже если думали, что разнообразнее уже некуда</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">06</h5>
+            <p class="card-text">Полюбишь прелюдию и определите, какие секс-игрушки нужны именно вам</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">07</h5>
+            <p class="card-text">Узнаешь секреты минета, после которого он сделает всё, чего ты пожелаешь</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">08</h5>
+            <p class="card-text">Узнаешь новую себя — и полюбишь с новой силой</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-7">
+        <img class="img-resp" src="img/title6.webp">
+        <div class="about-card__inst-big">
+          <a class="about-link__inst" href="https://www.instagram.com/kristina_taspin_/?hl=ru">
+            <i class="fab fa-instagram"></i> kristina_taspin_
+          </a>
+        </div>
+        <div class="about-card">
+          <div class="about-card__inst">
+            <a class="about-link__inst" href="https://www.instagram.com/kristina_taspin_/?hl=ru">
+              <i class="fab fa-instagram"></i> kristina_taspin_
+            </a>
+          </div>
+          <div class="about-card__desc">Секс-блогер. Моим советам следуют <span class="site-pink1 site-weight600">537 тыс.</span> <span class="site-weight600">подписчиков.</span> Не понаслышке знаю, что такое токсичные отношения и скованность в сексе.</div>
+          <div class="about-card__ps">
+            <span class="site-pink1 site-weight600">Весь свой опыт</span> <span class="site-weight600">я вложила в этот марафон</span>.
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-5">
+        <div class="block-pink"></div>
+        <img class="img-resp" src="img/kris3.webp">
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="price" >
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <img class="img-resp img-resp__price" src="img/title7.webp" id="money">
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="price__pretitle">Тариф</div>
+            <h5 class="card-title">Нежный</h5>
+            <hr>
+            <ul class="price-list">
+              <li class="price-list__item">доступ к материалам марафона</li>
+              <li class="price-list__item">общий чат</li>
+              <li class="price-list__item">видео консультация с Кристиной </li>
+              <li class="price-list__item">обратная связь от кураторов "подружек"</li>
+              <li class="price-list__item">видео разборы самых популярных игрушек (секреты игрушек, от чего он никогда не откажется)</li>
+              <li class="price-list__item">дополнительный урок "ананльный секс" и чек-лист с техниками  "9 топовых техник кунилингуса"</li>
+              <li class="price-list__item">возможность анонимно задать вопрос и получить ответ в прямом эфире</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <div class="discount">
+              <div class="discount__block">
+                <div class="dis__elem1">1200 руб</div>
+                <div class="dis__elem2">700 руб</div>
+              </div>
+              <button type="button" class="btn__price btn__white"  onclick="location.href='tarif1.html'">Оплатить марафон</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100"> 
+          <div class="card-body">
+            <div class="price__pretitle">Тариф</div>
+            <h5 class="card-title">Страстный</h5>
+            <hr>
+            <ul class="price-list">
+              <li class="price-list__item">доступ к материалам марафона</li>
+              <li class="price-list__item">обратная связь от кураторов "подружек"</li>
+              <li class="price-list__item">возможность анонимно задать вопрос и получить ответ в прямом эфире</li>
+              <li class="price-list__item">видео разборы самых популярных игрушек (секреты игрушек, от чего он никогда не откажется)</li>
+              <li class="price-list__item">видео консультация с Кристиной </li>
+              <li class="price-list__item">дополнительный урок "ананльный секс" и чек-лист с техниками  "9 топовых техник кунилингуса"</li>
+              <div class="w-100"></div>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <div class="discount">
+            <div class="discount__block">
+              <div class="dis__elem1">2300 руб</div>
+              <div class="dis__elem2">1500 руб</div>
+            </div>
+            <button type="button" class="btn__price btn__white" onclick="location.href='tarif2.html'">Оплатить марафон</button>
+          </div>
+        </div> 
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="price__pretitle">Тариф</div>
+            <h5 class="card-title">Жаркий</h5>
+            <hr>
+            <ul class="price-list">
+              <li class="price-list__item">доступ к материалам марафона</li>
+              <li class="price-list__item">общий чат с проверкой домашних заданий и обратной связью от Кристины</li>
+              <li class="price-list__item">возможность анонимно задать вопрос и получить ответ в прямом эфире</li>
+              <li class="price-list__item">видео-разборы самых популярных игрушек (секреты игрушек, от чего он никогда не откажется)</li>
+              <li class="price-list__item">обратная связь от кураторов "подружек"</li>
+              <li class="price-list__item">дополнительный урок "ананльный секс" и чек-лист с техниками  "9 топовых техник кунилингуса"</li>
+              <li class="price-list__item">видео консультация с Кристиной </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <div class="discount">
+              <div class="discount__block">
+                <div class="dis__elem1">5900 руб</div>
+                <div class="dis__elem2">3200 руб</div>
+              </div>
+              <button type="button" class="btn__price btn__white" onclick="location.href='tarif3.html'">Оплатить марафон</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <div class="price__pretitle">Тариф</div>
+            <h5 class="card-title">Взрывной</h5>
+            <hr>
+            <ul class="price-list">
+              <li class="price-list__item">доступ к материалам марафона</li>
+              <li class="price-list__item">общий чат с проверкой домашних заданий и обратной связью от Кристины</li>
+              <li class="price-list__item">возможность анонимно задать вопрос и получить ответ в прямом эфире</li>
+              <li class="price-list__item">видео-разборы самых популярных игрушек (секреты игрушек, от чего он никогда не откажется)</li>
+              <li class="price-list__item">обратная связь от кураторов "подружек"</li>
+              <li class="price-list__item">дополнительный урок "ананльный секс" и чек-лист с техниками  "9 топовых техник кунилингуса"</li>
+              <li class="price-list__item">видео консультация с Кристиной </li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <div class="discount">
+              <div class="discount__block">
+                <div class="dis__elem1">29.900 руб</div>
+                <div class="dis__elem2">6500 руб</div>
+              </div>
+              <button type="button" class="btn__price btn__white" onclick="location.href='tarif4.html'">Оплатить марафон</button>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="qa">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <img class="img-resp" src="img/title8.webp">
+      </div>
+      <div class="col-12">
+        <div class="qa-block">
+          <div class="qa-block__elems">
+            <div class="qa-block1">Как проходит обучение?</div>
+          </div>
+          <div class="qa-block2">
+          Марафон длится 14 дней: 7 уроков и 7 дней на проверку ваших заданий и работу над ошибками.<br>
+          <p></p>
+          После оплаты тарифа на вашу почту придёт доступ к видеоурокам и ссылка на общий чат участниц (в зависимости от выбранного тарифа) с обратной связь от кураторов «подруг», либо от меня лично (в зависимости от выбранного тарифа).<br>
+          Все текстовые файлы с содержанием каждого урока также будут размещены в Телеграме.<br>
+          <p></p>
+          Чек-листы, гайды, подборки и полезные бонусы останутся у вас навсегда.
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="qa-block">
+          <div class="qa-block__elems">
+            <div class="qa-block1">Я не состою в отношениях. Будет ли мне полезен этот марафон?</div>
+          </div>
+          <div class="qa-block2">Этот марафон для ВСЕХ, кто не уверен в себе и своей сексуальности. Возможно, именно это является причиной, по который вы не можете завести/не хотите отношений. Сценарии второго блока марафона предполагают, что у вас ещё не было первого свидания — и один из уроков поможет грамотно его организовать.</div>
+        </div>
+        </div>
+      <div class="col-12">
+        <div class="qa-block">
+          <div class="qa-block__elems">
+            <div class="qa-block1">Что мне понадобится в процессе прохождения марафона?</div>
+          </div>
+          <div class="qa-block2">Материалы, предоставленные во время марафона, и немного смелости. Для одного из блоков опционально наличие секс-игрушек, но это не обязательно. Моя задача — обеспечить вас знаниями о грамотном выборе игрушки.</div>  
+        </div>
+        </div>
+      <div class="col-12">
+        <div class="qa-block">
+          <div class="qa-block__elems">
+            <div class="qa-block1">Я могу пройти марафон с телефона?</div>
+          </div>
+          <div class="qa-block2">Да, только телефона хватит, так как все материалы марафона будут доступна в рамках чата и чат-бота в Телеграме.</div>  
+        </div>
+        </div>
+      <div class="col-12">
+        <div class="qa-block">
+          <div class="qa-block__elems">
+            <div class="qa-block1">Я оплатила, а доступ не пришёл. Что делать?</div>
+          </div>
+          <div class="qa-block2">Если вы не получили письмо на почту, обратитесь в тех. поддержку нашего сайта, нажав на кнопку в правом нижнем углу экрана. Мы сделаем все возможное, чтобы решить проблему как можно быстрее.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><div class="footer-desc text-center desc-text__white">ИП Гратило Кристина Сергеевна</div></div>
+      <div class="col-12"><div class="footer-desc text-center desc-text__white">ИНН 693203742254</div></div>
+      <div class="col-12"><div class="footer-desc text-center desc-text__white mb-4">taspinshop@mail.ru</div></div>
+      <div class="col-12"><div class="footer-desc text-center desc-text__grey">Договор - оферта</div></div>
+      <div class="col-12"><div class="footer-desc text-center desc-text__grey">Политика конфиденциальности</div></div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+  <script src="js/accordion.min.js"></script>
+  <script src="js/scroll.min.js"></script>
+  <script src="js/uplift.min.js"></script>
+</body>
+</html>

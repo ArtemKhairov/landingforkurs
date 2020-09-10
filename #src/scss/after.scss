@@ -1,0 +1,38 @@
+.after .img-resp{
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.after .card{
+  
+  border-radius:10px;
+}
+
+.after .card-text{
+  @media screen and(max-width:479px){
+    font-size:13px;
+  }
+
+  @media screen and(max-width:991px){
+    font-size:14px;
+  }
+
+  padding-top: 40px;
+  font-size:15px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.55;
+}
+
+.after .card-body{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.after .card-title{
+  position:absolute;
+  top: -43px;
+  left: 13px;
+  font-size: 90px;
+  font-weight: 700;
+  color:$site-pink1;
+}

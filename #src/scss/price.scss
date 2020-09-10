@@ -1,0 +1,122 @@
+.price{
+  margin-top: 100px;
+}
+
+.img-resp__price{
+  margin-bottom: 60px;
+
+  @media screen and(max-width:640px){
+    margin-bottom: 30px;
+  }
+}
+
+.price-list{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.price-list__item{
+  background: url(../img/dot.webp) no-repeat left top;
+  padding-left: 30px;
+  padding-top: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.3;
+  font-weight: 300;
+  color: #292727;
+  @media screen and(max-width:991px){
+    font-size: 15px;
+  }
+}
+
+
+.discount{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discount__block{
+  display: flex;
+  flex-wrap: wrap;
+  width:50%;
+
+  @media screen and(max-width:767px){
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+
+.dis__elem1{
+  width: 100%;
+  text-align: center;
+  font-size:30px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  text-decoration: line-through;
+  opacity: .5;
+  @media screen and(max-width:767px){
+    font-size: 25px;
+  }
+}
+
+.dis__elem2{
+  width:100%;
+  text-align: center;
+  font-size:30px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+
+  @media screen and(max-width:767px){
+    font-size: 25px;
+  }
+}
+
+.btn__price{
+  margin: auto;
+  margin-bottom: 10px;
+  width:200px;
+  height: 60px;
+  border-radius:10px;
+  border:transparent;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: 'Mazzard',Arial,sans-serif;
+  font-weight: bold;
+  font-size:17px;
+  @media screen and(max-width:991px){
+    width:250px;
+    
+  }
+}
+
+
+.btn__price:focus{
+  outline: transparent;
+}
+
+.price .card-footer{
+  border-top:transparent;
+  background-color: white;
+}
+
+.price__pretitle{
+  font-size:19px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.45;
+  font-weight: 400;
+  color: #858585;
+  @media screen and(max-width:991px){
+    font-size:15px;
+  }
+}
+
+.price .card-title{
+  color:$site-pink1;
+  font-size:50px;
+  font-style: italic;
+  @media screen and(max-width:500px){
+    font-size:40px
+  }
+}

@@ -1,0 +1,28 @@
+.programm{
+  margin-top: 40px;
+}
+
+.programm__list-item{
+ background:url(../img/dot.webp) no-repeat left top;
+ padding-left: 30px;
+ padding-top: 3px;
+ margin-bottom: 10px;
+}
+
+.programm__list{
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.programm-points{
+  padding: 15px;
+  border-radius: 10px;
+  background-color:#fff;
+}
+
+.programm .img-resp{
+  margin-bottom: 60px;
+  @media screen and(max-width:991px){
+    margin-top: 30px;
+  }
+}

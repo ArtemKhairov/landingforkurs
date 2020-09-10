@@ -1,0 +1,36 @@
+.buy-content__block{
+  display: flex;
+
+  height: 100%;
+}
+.quot{
+  padding-left: 75px;
+  font-size: 18px;
+  font-family: 'Mazzard',Arial,sans-serif;
+  line-height: 1.45;
+  font-style: italic;
+}
+.quot__extra{
+  padding-top: 20px;
+  font-weight: bold;
+}
+blockquote:before {
+  content: "\201c";
+  padding-left: 10px;
+  position: absolute;
+  left: -20px;
+  top: 90px;
+  font-size: 140px;
+  font-family: 'Mazzard';
+  font-style: italic;
+  font-weight: bold;
+  color: $site-pink1;
+}
+.buy__button{
+  padding-left: 75px;
+}
+.buy__wrapper{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
